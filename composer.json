@@ -1,0 +1,20 @@
+{
+  "name": "xbxcj/vdo",
+  "description": "API for video streaming from Google Drive.",
+  "license": "MIT",
+  "keywords":["Video Streaming"],
+  "author":[
+          {
+            "name":"Vivek Singh",
+            "email":"kumarvivek1994@gmail.com"
+          }
+      ],
+  "require":{
+             "php":">=5.3"  
+          },
+  "autoload":{
+     "psr-4":{
+           "Xbxcj\\vdo\\":"src"
+        }
+     }
+ }
