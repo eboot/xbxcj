@@ -10,11 +10,13 @@
           }
       ],
   "require":{
-             "php":">=5.3"  
+             "php":">=5.3"
           },
   "autoload":{
      "psr-4":{
            "Xbxcj\\vdo\\":"src"
         }
-     }
+     },
+  "minimun-stability":"dev",
+  "prefer-stable":true   
  }
