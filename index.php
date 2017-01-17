@@ -1,8 +1,8 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
-include ('/src/vdo.php');
+use \Xbxcj\vdo;
 $vdo = new vdo;
-$drive_link = 'https://docs.google.com/file/d/0B-sQqHvLCrsCVFhjUmpqRnFRV1E/preview';
+$drive_link = 'https://drive.google.com/open?id=0B9MrTPFsRfUgUDBKdTg5Y0taQ3M';
 $vdo->getLink($drive_link);
 echo $vdo->getSources();
 

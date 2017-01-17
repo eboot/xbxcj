@@ -14,9 +14,9 @@
           },
   "autoload":{
      "psr-4":{
-           "Xbxcj\\vdo\\":"src"
+           "Xbxcj\\":"src/"
         }
      },
   "minimun-stability":"dev",
-  "prefer-stable":true   
+  "prefer-stable":true
  }
